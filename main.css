@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    padding-top: 25px;
+}
+.container{
+    max-width:1280px ;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .header__left{
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+    color: #ffffff;
+    font-family: "Inter";
+    padding: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+}
+.header__link:hover{
+    color: rgb(118, 185, 0);
+    transition: 0.5s ease-in-out;
+}
+.hero__btn:hover{
+    background-color: silver;
+    transition: 0.5s ease-in-out;
+}
+
+.header__right{
+    width: 300px;
+    background-color: #fff;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.hero{
+    padding: 30px 0px;
+    background-image: url(./images/slider2\ 1.png);
+}
+.hero__textbox{
+    width: 277px;
+}
+.hero__title{
+    color: #ffffff;
+font-family: "Inter";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+margin-bottom: 88px;
+}
+.hero__btn{
+    width: 109px;
+    background-color: rgb(118, 185, 0);
+    padding: 18px 0px;
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    border: none;
+}
+
+
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%; 
+    display: block; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .card h2, .card a {
+    padding: 10px; 
+  }
+  .card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none; 
+    color: #28a745;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .card a:hover {
+    color: #1e7e34;
+  }
+
+
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+.card:hover .text a {
+    color: #0056b3;
+}
+
+
+
+
+
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  width: 90%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo-section {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.nvidia-logo {
+  width: 100px;
+}
+
+.text-container {
+  flex: 1;
+  padding-left: 30px; /* Matnni rasmga yaqinlashtirish uchun */
+}
+
+.title {
+  color: #27ae60;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #27ae60;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #1e8f54;
+}
+
+.location {
+  font-size: 14px;
+  color: #777;
+}
